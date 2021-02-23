@@ -1,0 +1,70 @@
+body {
+    background-color:black;
+    color:white;
+    width:100vw;
+    text-align: center;
+}
+ ul {
+    display: flex;
+    justify-content: center;
+}
+li {
+    list-style-type: none;
+}
+a {
+    color:white;
+    background-color:black;
+    padding:10px;
+    text-decoration: none;
+}
+a:hover {
+    color:black;
+    background-color: white;
+}
+main {
+    width:80%;
+    background-color: white;
+    margin: auto;
+    color: black;
+    min-height: 70vh;
+}
+main > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quiz {
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    width: 90%;
+    
+}
+.quiz p, .quiz a {
+    width:33%;
+    margin: 1%;
+}
+
+.container {
+    height:80%
+}
+.container .answers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .answers span, .container span.question {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: black;
+    width:50%;
+    color:white; 
+    padding:10px;
+}
+
+.container .answers span:hover {
+    color:black;
+    background-color:white;
+    border: 1px solid black;
+}

@@ -1,1 +1,4 @@
-<h2>Form</h2>
+
+<main>
+    <h2>Form</h2>
+</main>
