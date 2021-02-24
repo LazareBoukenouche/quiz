@@ -8,5 +8,7 @@
         <body>
             <?php require('components/header.php'); ?> 
             <?php require('components/form.php'); ?>
+
+            <script src="js/generateQuestionField.js"></script>
         </body>
     </html>
